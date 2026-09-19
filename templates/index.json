@@ -45,7 +45,7 @@
             "label": "Buy It",
             "link": "shopify://products/digital-product-3",
             "open_in_new_tab": true,
-            "style_class": "button-custom",
+            "style_class": "button",
             "custom_button_background": "rgba(0,0,0,0)",
             "custom_button_text": "{{ settings.color_palette.background }}",
             "custom_button_border": "{{ settings.color_palette.background }}",
