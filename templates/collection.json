@@ -99,6 +99,79 @@
         "padding-block-end": 48
       }
     },
+    "product_hotspots_p6KdBX": {
+      "type": "product-hotspots",
+      "blocks": {
+        "hotspot_product_a8kyzR": {
+          "type": "_hotspot-product",
+          "settings": {
+            "product": "digital-product-4",
+            "x-position": 58,
+            "y-position": 63
+          },
+          "blocks": {}
+        },
+        "hotspot_product_hhMprm": {
+          "type": "_hotspot-product",
+          "settings": {
+            "product": "",
+            "x-position": 60,
+            "y-position": 60
+          },
+          "blocks": {}
+        },
+        "heading": {
+          "type": "text",
+          "name": "t:names.heading",
+          "disabled": true,
+          "static": true,
+          "settings": {
+            "text": "<h2>Shop the look</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "text_color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "hotspot_product_a8kyzR",
+        "hotspot_product_hhMprm"
+      ],
+      "name": "t:names.product_hotspots",
+      "settings": {
+        "image": "shopify://shop_images/liangcibanner_1.jpg",
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "section_width": "page-width",
+        "section_height": "auto",
+        "hotspot_color": "#ffffff57",
+        "bullseye_color": "#ffffff",
+        "background_color": "",
+        "product_title_gap": 8,
+        "product_title_preset": "",
+        "product_price_preset": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -243,77 +316,6 @@
         "background_color": "",
         "padding-block-start": 0,
         "padding-block-end": 32
-      }
-    },
-    "product_hotspots_p6KdBX": {
-      "type": "product-hotspots",
-      "blocks": {
-        "hotspot_product_a8kyzR": {
-          "type": "_hotspot-product",
-          "settings": {
-            "product": "",
-            "x-position": 40,
-            "y-position": 40
-          },
-          "blocks": {}
-        },
-        "hotspot_product_hhMprm": {
-          "type": "_hotspot-product",
-          "settings": {
-            "product": "",
-            "x-position": 60,
-            "y-position": 60
-          },
-          "blocks": {}
-        },
-        "heading": {
-          "type": "text",
-          "name": "t:names.heading",
-          "static": true,
-          "settings": {
-            "text": "<h2>Shop the look</h2>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "h4",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "hotspot_product_a8kyzR",
-        "hotspot_product_hhMprm"
-      ],
-      "name": "t:names.product_hotspots",
-      "settings": {
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "section_width": "page-width",
-        "section_height": "auto",
-        "hotspot_color": "#FFFFFF57",
-        "bullseye_color": "#ffffff",
-        "background_color": "",
-        "product_title_gap": 8,
-        "product_title_preset": "",
-        "product_price_preset": "",
-        "padding-block-start": 40,
-        "padding-block-end": 40
       }
     }
   },
