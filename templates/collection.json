@@ -111,15 +111,6 @@
           },
           "blocks": {}
         },
-        "hotspot_product_hhMprm": {
-          "type": "_hotspot-product",
-          "settings": {
-            "product": "",
-            "x-position": 60,
-            "y-position": 60
-          },
-          "blocks": {}
-        },
         "heading": {
           "type": "text",
           "name": "t:names.heading",
@@ -150,8 +141,7 @@
         }
       },
       "block_order": [
-        "hotspot_product_a8kyzR",
-        "hotspot_product_hhMprm"
+        "hotspot_product_a8kyzR"
       ],
       "name": "t:names.product_hotspots",
       "settings": {
